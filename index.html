@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Notes Pro | Glass Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <aside class="sidebar">
+            <div class="logo">🧠 Smart Notes</div>
+            <div class="theme-switcher" id="theme-toggle">
+                <div class="toggle-ball"></div>
+            </div>
+            <nav>
+                <input type="text" id="search-bar" placeholder="🔍 Quick search...">
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="editor-card">
+                <input type="text" id="note-title" placeholder="Note Title...">
+                <textarea id="note-content" placeholder="Start typing your thoughts..."></textarea>
+                <button id="add-btn">Save Note</button>
+            </div>
+
+            <div id="notes-grid" class="notes-grid">
+                </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
